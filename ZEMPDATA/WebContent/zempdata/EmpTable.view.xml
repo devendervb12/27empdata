@@ -1,0 +1,34 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="zempdata.EmpTable" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+	         <Table items="{/empInfo}">
+	            <columns>
+	               
+	               <Column>
+	                    <Text text="Employee Code"/>
+	               </Column>	               
+	               <Column>
+	                  <Text text="Name"/>
+	               </Column>
+	               <Column>
+	                     <Text text="Role"/>
+	               </Column>
+	               <Column>
+	                    <Text text="Dept"/>
+	               </Column>
+	            </columns>
+	            <items>
+	              <ColumnListItem>
+	                    <cells>
+	                        <Text text="{code}"/>
+	                        <Text text="{name}"/>
+	                        <Text text="{role}"/>
+	                        <Text text="{dept}"/>
+	                    </cells>
+	               </ColumnListItem>
+	            </items>
+	         </Table>
+		</content>
+	</Page>
+</core:View>

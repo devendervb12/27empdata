@@ -1,0 +1,29 @@
+{
+	"empInfo": [{
+			"code": 1,
+			"name": "Govardhan",
+			"role": "Technical Consultant",
+			"dept": "UI5"
+		},
+		{
+			"code": 2,
+			"name": "Surender",
+			"role": "Marketing Deployment",
+			"dept": "SALES"
+
+		},
+		{
+			"code": 3,
+			"name": "Devender",
+			"role": "Training",
+			"dept": "Development"
+		},
+		{
+			"code": 4,
+			"name": "Devender",
+			"role": "Training",
+			"dept": "Development"
+		}
+
+	]
+}
