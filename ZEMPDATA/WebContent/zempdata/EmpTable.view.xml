@@ -4,18 +4,18 @@
 		<content>
 	         <Table items="{/empInfo}">
 	            <columns>
-	               
+	            
 	               <Column>
-	                    <Text text="Employee Code"/>
-	               </Column>	               
-	               <Column>
-	                  <Text text="Name"/>
+	                    <Text text="{r2>EMP_NUM}"/>
 	               </Column>
-	               <Column>
-	                     <Text text="Role"/>
+	                <Column>
+	                    <Text text="{r2>NAME}"/>
 	               </Column>
-	               <Column>
-	                    <Text text="Dept"/>
+	                <Column>
+	                    <Text text="{r2>ROLE}"/>
+	               </Column>
+	                <Column>
+	                    <Text text="{r2>DEPT}"/>
 	               </Column>
 	            </columns>
 	            <items>

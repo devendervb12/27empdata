@@ -10,8 +10,18 @@ sap.ui.controller("zempdata.EmpTable", {
 		var oModel = new sap.ui.model.json.JSONModel();
 		oModel.loadData("model/empData.json");
 		this.getView().setModel(oModel);
+		
+	
+		
+		sap.ui.localResources("i18n");
+		var oResourceModel = new sap.ui.model.resource.ResourceModel({
+	        bundleName : "i18n.mySource"
+	      });
+     //named model r2
+		this.getView().setModel(oResourceModel, "r2");
 
 	},
+	
 
 /**
 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered
